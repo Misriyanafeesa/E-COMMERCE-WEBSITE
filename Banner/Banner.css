@@ -1,0 +1,57 @@
+.banner{
+    height:100vh;
+    /* background: linear-gradient(180deg,#fde1ff,#e1ffea22 60%); */
+    background: linear-gradient(99.6deg, rgb(112, 128, 152) 10.6%, rgb(242, 227, 234) 32.9%, rgb(234, 202, 213) 52.7%, rgb(220, 227, 239) 72.8%, rgb(185, 205, 227) 81.1%, rgb(154, 180, 212) 102.4%);
+    display: flex  ;
+    padding-top: 60px;
+}
+.banner-left{
+    /* flex: 1; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 180px;
+    line-height: 1.2; 
+}
+.banner-left h1{
+    color: black;
+    font-size: 50px;
+    font-weight: bolder; 
+}
+.banner-left h1 span{
+    color:rgb(165, 8, 8);
+}
+.banner-left p{
+    text-align: justify;
+    color: rgb(97, 97, 97);
+    justify-content: center;
+    font-weight:bold;
+}
+.banner-left p span{
+    color: black;
+}
+.banner-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.shop-now{
+    font-size: 17px;
+    font-weight: bold;
+    width: 200px;
+    border-radius: 75px;
+    height: 50px;
+    background-color:rgb(167, 6, 6);
+    border: none ;
+    color:white;
+    cursor: pointer;
+}
+.shop-now:active{
+    background: #f3f3f3;
+}
+/* .banner-right :hover{
+    transform: scale(1.05);
+    transition:0.6s;
+} */
